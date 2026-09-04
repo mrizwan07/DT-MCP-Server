@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "dynatrace-managed": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@dynatrace-oss/dynatrace-managed-mcp-server@latest"
+      ],
+      "env": {
+        "DT_CONFIG_FILE": "C:\\dt-config-file-path\\dt-config.yaml",
+        "DT_PERF_TOKEN": "DT Access Token",
+        "LOG_LEVEL": "debug"
+      }
+    }
+  }
+}

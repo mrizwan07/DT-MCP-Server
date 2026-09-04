@@ -1,0 +1,19 @@
+# Dynatrace Managed Environments Configuration
+# This file demonstrates YAML format with comments and environment variable interpolation
+
+# Production environment
+- dynatraceUrl: https://dt-cluster-url/
+  apiEndpointUrl: https://dt-api-end-point-url/
+  environmentId: <DT Tenant ID>
+  alias: production
+  # Environment variable interpolation - tokens are injected at runtime
+  apiToken: <DT Access Token>
+
+# Production environment
+- dynatraceUrl: https://dt-cluster-url/
+  apiEndpointUrl: https://dt-api-end-point-url/
+  environmentId: <DT Tenant ID>
+  alias: performance
+  # Environment variable interpolation - tokens are injected at runtime
+  apiToken: <DT Access Token>
+
